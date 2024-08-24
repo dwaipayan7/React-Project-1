@@ -1,19 +1,12 @@
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
+
 const App = () => {
   return (
     <div>
-      <nav>
-        <div className='logo'>
-          <img src='/images/brand_logo.png' alt='logo'></img>
-        </div>
-        <ul>
-          <li href='#'>Menu</li>
-          <li href='#'>Location</li>
-          <li href='#'>About</li>
-          <li href='#'>Contact</li>
-        </ul>
+      <Navbar />
 
-        <button>Login</button>
-      </nav>
+      <Hero />
     </div>
   );
 };
